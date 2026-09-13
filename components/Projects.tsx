@@ -64,7 +64,23 @@ const PROJECTS: Project[] = [
     ],
   },
   {
-    name: "Rehmat Lawn Mowers",
+    name: "Rehmat Lawn Mowers POS",
+    url: "https://rehmatlawnmowers.vercel.app/",
+    tag: "Vite + Tauri Desktop POS & ERP",
+    category: "desktop",
+    description:
+      "High-speed desktop retail inventory and counter checkout system engineered with Vite, React, and Tauri (Rust core) for sub-millisecond local execution and offline persistence.",
+    stack: ["Vite", "Tauri", "React 18", "Rust Core", "SQLite WAL", "Tailwind CSS"],
+    metrics: "Tauri + Rust Core · Vite Sub-ms UI",
+    badgeColor: "text-amber-900 bg-amber-50 border-amber-200 dark:text-amber-300 dark:bg-amber-950/60 dark:border-amber-500/40",
+    highlights: [
+      "Ultra-lightweight native desktop binary built with Vite and Tauri with minimal memory footprint.",
+      "Local SQLite WAL persistence for zero-latency cashier checkout and transaction ledger.",
+      "Synchronized inventory updates and automated stock replenishment alerts.",
+    ],
+  },
+  {
+    name: "Rehmat Lawn Mowers Store",
     url: "https://rehmatlawnmowers.com/",
     tag: "Custom WordPress & WooCommerce Store",
     category: "cms",
@@ -72,7 +88,7 @@ const PROJECTS: Project[] = [
       "Bespoke WordPress & WooCommerce commercial platform engineered for industrial lawn care equipment, machinery parts catalog, direct order processing, and customer quotation pipelines.",
     stack: ["WordPress", "WooCommerce", "PHP", "Custom Theme", "MySQL", "SEO Schema"],
     metrics: "Custom WooCommerce · Catalog & Inquiries",
-    badgeColor: "text-emerald-800 bg-emerald-50 border-emerald-200 dark:text-emerald-300 dark:bg-emerald-950/60 dark:border-emerald-500/40",
+    badgeColor: "text-blue-800 bg-blue-50 border-blue-200 dark:text-blue-300 dark:bg-blue-950/60 dark:border-blue-500/40",
     highlights: [
       "Custom WooCommerce theme engineered for machinery catalogs, spare parts, and equipment specs.",
       "Integrated quotation and inquiry pipelines routing directly to sales staff via WhatsApp & email.",

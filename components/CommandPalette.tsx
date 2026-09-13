@@ -163,7 +163,17 @@ export default function CommandPalette({ isOpen, onClose }: CommandPaletteProps)
             },
           },
           {
-            id: "proj-rehmat",
+            id: "proj-rehmat-pos",
+            title: "Rehmat Lawn Mowers POS",
+            subtitle: "Vite + Tauri desktop inventory runtime & counter POS",
+            icon: ExternalLink,
+            action: () => {
+              window.open("https://rehmatlawnmowers.vercel.app/", "_blank");
+              onClose();
+            },
+          },
+          {
+            id: "proj-rehmat-store",
             title: "Rehmat Lawn Mowers Store",
             subtitle: "Custom WordPress & WooCommerce equipment commerce platform",
             icon: ExternalLink,
