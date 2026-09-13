@@ -164,8 +164,8 @@ export default function CommandPalette({ isOpen, onClose }: CommandPaletteProps)
           },
           {
             id: "proj-rehmat",
-            title: "Rehmat Lawn Mowers ERP",
-            subtitle: "Dual-platform cloud & desktop inventory ledger",
+            title: "Rehmat Lawn Mowers Store",
+            subtitle: "Custom WordPress & WooCommerce equipment commerce platform",
             icon: ExternalLink,
             action: () => {
               window.open("https://rehmatlawnmowers.com/", "_blank");

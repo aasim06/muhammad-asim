@@ -66,17 +66,17 @@ const PROJECTS: Project[] = [
   {
     name: "Rehmat Lawn Mowers",
     url: "https://rehmatlawnmowers.com/",
-    tag: "Enterprise ERP & POS Suite",
-    category: "desktop",
+    tag: "Custom WordPress & WooCommerce Store",
+    category: "cms",
     description:
-      "Comprehensive inventory and business operations software engineered as a synchronized dual-platform solution (cloud web app + desktop counter runtime).",
-    stack: ["React", "Node.js", "Express REST", "PostgreSQL", "Tailwind CSS"],
-    metrics: "Dual-Platform Cloud Sync · Multi-Role Ledger",
-    badgeColor: "text-amber-900 bg-amber-50 border-amber-200 dark:text-amber-300 dark:bg-amber-950/60 dark:border-amber-500/40",
+      "Bespoke WordPress & WooCommerce commercial platform engineered for industrial lawn care equipment, machinery parts catalog, direct order processing, and customer quotation pipelines.",
+    stack: ["WordPress", "WooCommerce", "PHP", "Custom Theme", "MySQL", "SEO Schema"],
+    metrics: "Custom WooCommerce · Catalog & Inquiries",
+    badgeColor: "text-emerald-800 bg-emerald-50 border-emerald-200 dark:text-emerald-300 dark:bg-emerald-950/60 dark:border-emerald-500/40",
     highlights: [
-      "Centralized cloud database with real-time stock ledger synchronization across branches.",
-      "Role-based authentication system with fine-grained staff cashier permissions.",
-      "Detailed financial analytics, profit margins, and supplier purchase order exports.",
+      "Custom WooCommerce theme engineered for machinery catalogs, spare parts, and equipment specs.",
+      "Integrated quotation and inquiry pipelines routing directly to sales staff via WhatsApp & email.",
+      "Optimized database queries and media assets ensuring fast loading and high search visibility.",
     ],
   },
   {
